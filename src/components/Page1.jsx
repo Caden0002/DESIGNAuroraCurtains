@@ -1,12 +1,12 @@
-
+import { AuroraBackground } from "./aurora-background";
 
 function Page1(props) {
     return (
-        <div className={`relative min-h-screen flex bg-stone-200`}>
-            <div className="container max-w-screen-xl mx-auto flex justify-center items-center text-4xl ">
-                Page 1
-            </div>
-        </div>
+            <AuroraBackground showRadialGradient={true}>
+                <div className="container max-w-screen-xl mx-auto flex justify-center items-center text-4xl">
+                    Page 1
+                </div>
+            </AuroraBackground>
     );
 }
 
